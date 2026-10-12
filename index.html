@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GameZone | Oyun Dünyası</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #10111b;
+  color: white;
+}
+header {
+  background: #191a2b;
+  padding: 22px;
+  text-align: center;
+  border-bottom: 2px solid #8b5cf6;
+}
+header h1 {
+  color: #a78bfa;
+  margin: 0;
+}
+nav {
+  margin-top: 15px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 12px;
+}
+.hero {
+  text-align: center;
+  padding: 55px 20px;
+  background: linear-gradient(135deg, #27204d, #10111b);
+}
+.hero h2 {
+  font-size: 34px;
+}
+.hero p {
+  color: #d1d5db;
+}
+.games {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 22px;
+  padding: 30px 20px;
+}
+.card {
+  background: #202134;
+  border-radius: 12px;
+  padding: 22px;
+  width: 280px;
+  border: 1px solid #393954;
+}
+.card h3 {
+  color: #a78bfa;
+}
+.card p {
+  line-height: 1.6;
+}
+.card a {
+  display: inline-block;
+  background: #7c3aed;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+.card a:hover {
+  background: #6d28d9;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #191a2b;
+  color: #bbb;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>🎮 GameZone</h1>
+  <nav>
+    <a href="#anasayfa">Ana Sayfa</a>
+    <a href="#oyunlar">Oyunlar</a>
+    <a href="#hakkimizda">Hakkımızda</a>
+  </nav>
+</header>
+
+<section class="hero" id="anasayfa">
+  <h2>Oyun Dünyasına Hoş Geldin!</h2>
+  <p>En sevilen oyunları keşfet ve kendi favorini bul.</p>
+</section>
+
+<section class="games" id="oyunlar">
+
+  <div class="card">
+    <h3>GTA V</h3>
+    <p>Açık dünyada görevler yap, araçları keşfet
+    ve Los Santos macerasına katıl.</p>
+    <a href="https://www.rockstargames.com/gta-v"
+       target="_blank" rel="noopener">Oyunu Tanı</a>
+  </div>
+
+  <div class="card">
+    <h3>VALORANT</h3>
+    <p>Takımınla mücadele et, ajan yeteneklerini
+    kullan ve rekabetçi maçlara katıl.</p>
+    <a href="https://playvalorant.com/"
+       target="_blank" rel="noopener">Oyunu Tanı</a>
+  </div>
+
+  <div class="card">
+    <h3>Minecraft</h3>
+    <p>Kendi dünyanı kur, kaynakları keşfet
+    ve hayal gücünle yapılar oluştur.</p>
+    <a href="https://www.minecraft.net/"
+       target="_blank" rel="noopener">Oyunu Tanı</a>
+  </div>
+
+</section>
+
+<footer id="hakkimizda">
+  <p>GameZone | Dijital Tasarım Projesi</p>
+  <p>Bu site oyunları tanıtmak amacıyla hazırlanmıştır.</p>
+</footer>
+
+</body>
+</html>
